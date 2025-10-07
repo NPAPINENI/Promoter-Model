@@ -16,26 +16,25 @@ source ~/anaconda3/etc/profile.d/conda.sh
 conda activate envR3
 
 
-cd /home/npapinen/RAMANA_CEWIT_SERVER/DNABERT/pydna_epbd/shapefeatures/TFBS/
 
 rm -rf /home/npapinen/anaconda3/envs/envR3/lib/R/library/00LOCK-data.table
 
 
-Rscript /home/npapinen/RAMANA_CEWIT_SERVER/DNABERT/pydna_epbd/shapefeatures/ShapeFeatures/500bp.R
+Rscript /~/code/shape_features_cal_props/500bp.R
 
 
 # # ================================
 # # ✅ STEP 1:
-# Rscript /home/npapinen/RAMANA_CEWIT_SERVER/DNABERT/pydna_epbd/shapefeatures/ShapeFeatures/tfbs_loop.R
+# Rscript /~/code/shape_features_cal_props/tfbs_loop.R
 # # ================================
 # # ✅ STEP 2: 
-# Rscript /home/npapinen/RAMANA_CEWIT_SERVER/DNABERT/pydna_epbd/generate_fasta.R
+# Rscript /~/code/shape_features_cal_props/generate_fasta.R
 
 # # # ================================
 # # # ✅ STEP 3:
-# Rscript /home/npapinen/RAMANA_CEWIT_SERVER/DNABERT/pydna_epbd/shapefeatures/ShapeFeatures/tfbs_calculation.R
-# Rscript /home/npapinen/RAMANA_CEWIT_SERVER/DNABERT/pydna_epbd/shapefeatures/ShapeFeatures/45bp_sw10_tfbs.R
+# Rscript /~/code/shape_features_cal_props/tfbs_calculation.R
+# Rscript /~/code/shape_features_cal_props/45bp_sw10_tfbs.R
 
-# Rscript /home/npapinen/RAMANA_CEWIT_SERVER/DNABERT/pydna_epbd/shapefeatures/ShapeFeatures/fullfeature.R
-# Rscript /home/npapinen/RAMANA_CEWIT_SERVER/DNABERT/pydna_epbd/shapefeatures/ShapeFeatures/45bp_sw10_tfbs.R
-# Rscript /home/npapinen/RAMANA_CEWIT_SERVER/DNABERT/pydna_epbd/shapefeatures/ShapeFeatures/difference_sum_shape_summary.R
+# Rscript /~/code/shape_features_cal_props/fullfeature.R
+# Rscript /~/code/shape_features_cal_props/45bp_sw10_tfbs.R
+# Rscript /~/code/shape_features_cal_props/difference_sum_shape_summary.R
