@@ -1,3 +1,4 @@
+# Funetuned CorePromMM model
 The Funetuned CorePromMM model leverages the pretrained DNABERT architecture.
 Please follow the structure below when setting up your repository:
 
