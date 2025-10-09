@@ -2,6 +2,7 @@
 The Funetuned CorePromMM model leverages the pretrained DNABERT architecture.
 Please follow the structure below when setting up your repository:
 
+```text
 ├── DNABERTCorePromMM
 │   ├── code  (for flexible usage, add these required py files and bash script in examples/ folder in your DNABERT repo)
 │   │   ├── DNABERT-CoreProm_finetune.sh
@@ -10,7 +11,7 @@ Please follow the structure below when setting up your repository:
 │   │   ├── run_finetune_DNABERT-CoreProm.py
 │   │   ├── shape_features_cal_props   # feature calculation (Nucleotide Properties and Shape Features)
 │   │   │   ├── Calculate_properties.py    # Run Calculate_properties.py and 500bp.R for Nucleotide Properties and Shape Features
-│   │   │   ├── 500bp.R                  
+│   │   │   ├── 500bp.R
 │   │── src   # modified Functions from DNABERT (usage: download the DNABERT GitHub repo and replace this src/ folder with that)
 │   │   ├── dnabert_transformers
 │   │   └── transformers.egg-info
@@ -24,6 +25,7 @@ Please follow the structure below when setting up your repository:
 │   │       └── PWM_TATA
 │   └── README.md
 └── README.md
+```
 
 
 # ⚙️ Usage
