@@ -6,20 +6,10 @@ Please follow the structure below when setting up your repository:
 │   │   ├── DNABERT-CoreProm_finetune.sh
 │   │   ├── DNABERT-CoreProm_pretrained.py
 │   │   ├── pretrain.sh
-│   │   ├── readme.md
 │   │   ├── run_finetune_DNABERT-CoreProm.py
 │   │   ├── shape_features_cal_props   # feature calculation (Nucleotide Properties and Shape Features)
 │   │   │   ├── Calculate_properties.py    # Run Calculate_properties.py and 500bp.R for Nucleotide Properties and Shape Features
 │   │   │   ├── 500bp.R                  
-│   │   │   ├── 45bp_sw10_tfbs.R
-│   │   │   ├── difference_sum_shape_summary.R
-│   │   │   ├── fullfeature.R
-│   │   │   ├── generate_fasta.R
-│   │   │   ├── kmer_generate_single_TFBS.R
-│   │   │   ├── kmer_job.sh
-│   │   │   ├── shapefeatures.sh
-│   │   │   ├── tfbs_calculation.R
-│   │   │   └── tfbs_loop.R
 │   │── src   # modified Functions from DNABERT (usage: download the DNABERT GitHub repo and replace this src/ folder with that)
 │   │   ├── dnabert_transformers
 │   │   └── transformers.egg-info
